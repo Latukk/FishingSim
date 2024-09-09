@@ -2,6 +2,7 @@ package org.latuk.fishingsim.handlers;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Entity;
+import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -38,7 +39,7 @@ public class Events implements Listener {
     public void onFishing(PlayerFishEvent event) {
         Player player = event.getPlayer();
         Entity caught = event.getCaught();
-        if (caught != null) {
+        if (caught != null && caught.getType() == EntityType.DROPPED_ITEM) {
             caught.remove();
             inventoryUtils.givePlayerRandomFish(player);
             petUtils.givePlayerRandomPetWithChance(player, 25);
@@ -95,8 +96,6 @@ public class Events implements Listener {
         int rodLevel = dataManager.getFishingRodLevel(player);
         inventoryUtils.givePlayerFishingRod(player, rodLevel);
         inventoryUtils.givePlayerMenuItem(player);
-
-        for (int i = 0; i < 50; i++) dataManager.givePlayerPet(player, petUtils.getRandomPet());
     }
 
     @EventHandler(priority = EventPriority.HIGHEST)
