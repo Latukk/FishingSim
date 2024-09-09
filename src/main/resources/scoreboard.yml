@@ -1,0 +1,20 @@
+# SCOREBOARD
+# Цвет - &код
+# %server-name% - Название сервера
+# %server-online% - Количество игроков на сервере
+# %player-name% - Никнейм игрока
+# %fishes% - Количество выловленных рыб игрока
+# %money% - Количество денег игрока
+# %multiplier% - Множитель денег от питомцев
+# %level% - Уровень игрока
+
+scoreboard:
+  - "&aFishSim by Latuk"
+  - ""
+  - "&fНикнейм: &7%player-name%"
+  - "&fУровень: &7%level%"
+  - "&fРыбы: &7%fishes%"
+  - "&fДеньги: &7%money%"
+  - "&fМножитель: &7x%multiplier%"
+  - "&fИгроки: &7%server-online%"
+server-name: "&bMy Server"

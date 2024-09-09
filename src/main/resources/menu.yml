@@ -1,0 +1,49 @@
+menu:
+  menuSize: 27
+  upgradeRod:
+    material: FISHING_ROD
+    slot: 11
+    itemName: "&bУлучшение удочки"
+    itemLore:
+      - "&8Улучшение удочки"
+      - ""
+      - "&7Улучшить вашу удочку"
+    command: "fishsim upgraderod"
+  sellFishes:
+    material: SALMON
+    slot: 13
+    itemName: "&bПродать рыбу"
+    itemLore:
+      - "&8Продать рыбу"
+      - ""
+      - "&7Продать всю рыбу в инвентаре"
+    command: "fishsim sellfishes"
+  levelUp:
+    material: EXPERIENCE_BOTTLE
+    slot: 15
+    itemName: "&bПовышение уровня"
+    itemLore:
+      - "&8Повышение уровня"
+      - ""
+      - "&7Повысить ваш уровень"
+    command: "fishsim upgradelevel"
+  locations:
+    material: PLAYER_HEAD
+    headValue: "ewogICJ0aW1lc3RhbXAiIDogMTYxMzUzMDYyMjA3MCwKICAicHJvZmlsZUlkIiA6ICIxNGM5MDFmYWMyNDU0NmZlYjYzODcyYjI1ZjE1MDY3NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFYXJ0aCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNzllMjI0OGJkNzk4ZWI2MWY5N2FlZWVjYzJhZmRkZWJhZDUyYmY0MDUyYzcyNjFiNjE4MGE0NTc3Zjg2OTNhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUzY2FjOGI3NzlmZTQxMzgzZTY3NWVlMmI4NjA3MWE3MTY1OGYyMTgwZjU2ZmJjZThhYTMxNWVhNzBlMmVkNiIKICAgIH0KICB9Cn0="
+    slot: 17
+    itemName: "&bЛокации"
+    itemLore:
+      - "&8Локации"
+      - ""
+      - "&7Переместиться на другую локацию"
+    command: "fishsim locations"
+  pets:
+    material: PLAYER_HEAD
+    headValue: "ewogICJ0aW1lc3RhbXAiIDogMTY3MDk3NDcyOTU0OSwKICAicHJvZmlsZUlkIiA6ICIyM2YxYTU5ZjQ2OWI0M2RkYmRiNTM3YmZlYzEwNDcxZiIsCiAgInByb2ZpbGVOYW1lIiA6ICIyODA3IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JiMjBkYWRmZWI4MTQxNDkzNTE0ODA1ZWEyODQyMjM2MTIzYzUzODI4NWEwNzMyYWQyZmI3MWY1OWE5YzMyZDEiCiAgICB9CiAgfQp9"
+    slot: 9
+    itemName: "&bПитомцы"
+    itemLore:
+      - "&8Питомцы"
+      - ""
+      - "&7Посмотреть ваших питомцев"
+    command: "fishsim pets"

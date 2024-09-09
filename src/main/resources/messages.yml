@@ -1,0 +1,12 @@
+messages:
+  error: "&cПроизошла ошибка!"
+  full-inventory: "&cУ вас заполнен инвентарь!"
+  gived-fish: "&eВы выловили &a%fish% &eвесом &a%weight% &eкг!" # %player% - Никнейм игрока; %fish% - Название рыбы; %weight% - Вес рыбы; %price% - Цена за 1 кг; %totalprice% - Цена конкретно этой рыбы (Вес * цена за 1 кг);
+  sells-fish: "&eВы продали &a%fishes% рыб &eи получили &a%money%&e$!"
+  dont-have-fish: "&cУ вас нет рыбы на продажу!"
+  havent-level: "&cУ вас недостаточно уровня!"
+  teleported-to-location: "&aВы успешно телепортировались на локацию %location-name%"
+  max-equipped-pets: "&cУ вас экипировано максимальное количество питомцев!"
+  equip-pet: "&aВы успешно экипировали питомца!"
+  unequip-pet: "&aВы успешно убрали питомца из экипировки!"
+  you-got-pet: "&aВы получили питомца: %pet%"

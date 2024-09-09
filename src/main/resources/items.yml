@@ -1,0 +1,38 @@
+items:
+  FISHING_ROD:
+    name: "&bУдочка"
+    lore:
+      - "&8Удочка"
+      - ""
+      - "&7Удочка для ловли рыбы"
+      - "&7Уровень &a%fishing_rod_level%"
+      - ""
+      - "&7Зачарования:"
+    shopName: "%itemcolor%Удочка"
+    shopLore:
+      - "&8Удочка"
+      - ""
+      - "&7Цена: %moneycolor%%balance%&7/%moneycolor%%price%&7$"
+      - "&7Рыбы: %fishescolor%%fishes%&7/%fishescolor%%fishesprice%"
+      - ""
+      - "&7Зачарования:"
+    level:
+      1:
+        price: 0
+        fishes: 0
+        enchantments:
+      2:
+        price: 500
+        fishes: 15
+        enchantments:
+          LURE: 1
+      3:
+        price: 1500
+        fishes: 45
+        enchantments:
+          LURE: 2
+      4:
+        price: 4500
+        fishes: 135
+        enchantments:
+          LURE: 3

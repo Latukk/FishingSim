@@ -1,0 +1,38 @@
+fishes:
+  carp:
+    dataName: carp
+    name: "&aКарп"
+    lore:
+      - "&8Карп"
+      - ""
+      - "&7Пресноводная лучепёрая рыба семейства карповых."
+      - ""
+      - "&7Вес: &e%weight% &7кг."
+      - "&7Цена за кг: &e5&7$."
+    weight:
+      min: 2
+      max: 14
+    material: COD
+    price: 5
+    chances:
+      loc_1: 50
+      loc_2: 30
+  crucian:
+    dataName: crucian
+    name: "&aКарась"
+    lore:
+      - "&8Карась"
+      - ""
+      - "&7Лучепёрая рыба семейства карповых."
+      - "&7Неприхотливая промысловая рыба."
+      - ""
+      - "&7Вес: &e%weight% &7кг."
+      - "&7Цена за кг: &e10&7$."
+    weight:
+      min: 1
+      max: 4
+    material: COD
+    price: 10
+    chances:
+      loc_1: 30
+      loc_2: 50

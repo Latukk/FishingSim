@@ -1,0 +1,15 @@
+pets:
+  bee:
+    dataName: bee
+    name: "&eПчела"
+    lore:
+      - "&8Пчела"
+      - ""
+      - "&7Трудолюбивая пчела."
+      - ""
+      - "&7Множитель цен: &fx%multiplier%&7."
+      - "&7Шанс выпадения: &f%chance%&7%."
+    headValue: "ewogICJ0aW1lc3RhbXAiIDogMTY3MDk3NDcyOTU0OSwKICAicHJvZmlsZUlkIiA6ICIyM2YxYTU5ZjQ2OWI0M2RkYmRiNTM3YmZlYzEwNDcxZiIsCiAgInByb2ZpbGVOYW1lIiA6ICIyODA3IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JiMjBkYWRmZWI4MTQxNDkzNTE0ODA1ZWEyODQyMjM2MTIzYzUzODI4NWEwNzMyYWQyZmI3MWY1OWE5YzMyZDEiCiAgICB9CiAgfQp9"
+    level: 1
+    multiplier: 1.0
+    chance: 30.0

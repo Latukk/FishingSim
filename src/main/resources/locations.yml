@@ -1,0 +1,35 @@
+locations:
+  loc_1:
+    x: 58.5
+    y: 127
+    z: 72.5
+    yaw: -180.0
+    pitch: 0.0
+    world: "world"
+    slot: 0
+    material: GRASS_BLOCK
+    level: 1
+    name: "%itemcolor%Рыбацкая бухта"
+    lore:
+      - "&8Рыбацкая бухта"
+      - ""
+      - "&7Для начинающих рыбаков"
+      - ""
+      - "&7Необходимый уровень: %itemcolor%%playerlevel%&7/%itemcolor%%loclevel%"
+  loc_2:
+    x: 75.5
+    y: 127
+    z: 72.5
+    yaw: -180.0
+    pitch: 0.0
+    world: "loc_2"
+    slot: 1
+    material: DIRT
+    level: 2
+    name: "%itemcolor%Озеро"
+    lore:
+      - "&8Озеро"
+      - ""
+      - "&7Для более опытных рыбаков"
+      - ""
+      - "&7Необходимый уровень: %itemcolor%%playerlevel%&7/%itemcolor%%loclevel%"

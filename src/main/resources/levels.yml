@@ -1,0 +1,39 @@
+levels:
+  itemName: "%namecolor%Повышение уровня"
+  itemLore:
+    - "&8Повышение уровня"
+    - ""
+    - "&7Повысить ваш уровень"
+    - "&7Уровень: &f%playerlevel% &7-> &f%nextlevel%"
+    - "&7Цена: %moneycolor%%balance%&7/%moneycolor%%price%&7$"
+    - "&7Рыбы: %fishescolor%%fishes%&7/%fishescolor%%fishesprice%"
+  1:
+    price: 500
+    fishes: 15
+  2:
+    price: 1500
+    fishes: 30
+  3:
+    price: 3000
+    fishes: 45
+  4:
+    price: 4500
+    fishes: 60
+  5:
+    price: 7000
+    fishes: 100
+  6:
+    price: 10000
+    fishes: 125
+  7:
+    price: 15000
+    fishes: 150
+  8:
+    price: 17500
+    fishes: 175
+  9:
+    price: 20000
+    fishes: 200
+  10:
+    price: 25000
+    fishes: 250

@@ -1,0 +1,12 @@
+name: FishingSim
+version: '${project.version}'
+main: org.latuk.fishingsim.Main
+api-version: '1.16'
+authors: [Latuk]
+description: Симулятор рыбалки
+commands:
+  fishsim:
+    description: Команды симулятора рыбалки
+    aliases:
+    - fishsimulator
+    - fs
